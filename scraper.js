@@ -22,7 +22,7 @@ async function fetchJobDetails(jobUrl) {
     }
 }
 
-async function scrapeGoogleJobs() {
+async function scrapeJobs() {
     const baseUrl = 'https://careers.google.com/jobs/results/';
     let page = 1;
     let hasMorePages = true;
@@ -76,4 +76,4 @@ async function scrapeGoogleJobs() {
     }
 }
 
-scrapeGoogleJobs();
+scrapeJobs();
